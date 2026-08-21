@@ -7,7 +7,7 @@ from discord.ext import commands
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv(238183becfd966e9b5cd11284f0813eea1925479941655489ad2b44a153ca6d9)
+TOKEN = os.getenv("Discord Token")
 if not TOKEN:
     print("Error: DISCORD_TOKEN environment variable not set.")
     sys.exit(1)
